@@ -22,9 +22,9 @@
 ### 2.1 Интерфейс пользователя<a name="2.1"></a>
 Главное окно приложения после предварительной загрузки показывает CoinMarket окно. Пользователь может получить доступ к SetupCoins где он может добавить интересующие его монеты в список избранных. Когда пользователь нажимает кнопку диаграммы в начальном окне откроется окно CoinsCnart, в котором есть подробная информация о монетах, выбранных из списка.
 
-![](https://github.com/AndreiGlinka830501/TRTPO2/tree/main/mockups/CoinCharts.png)
-![](https://github.com/AndreiGlinka830501/TRTPO2/tree/main/mockups/CoinMarket.png)
-![](https://github.com/AndreiGlinka830501/TRTPO2/tree/main/mockups/SetupCoins.png)
+![](https://github.com/AndreiGlinka830501/TRTPO2/blob/main/mockups/CoinCharts.PNG)
+![](https://github.com/AndreiGlinka830501/TRTPO2/blob/main/mockups/CoinMarket.PNG)
+![](https://github.com/AndreiGlinka830501/TRTPO2/blob/main/mockups/SetupCoins.PNG)
 
 ### 2.2 Характеристика пользователя<a name="2.2"></a>
   Существует множество криптовалютных трекеров, но не все они могут дать возможность использовать его без доступа ethernet и работать с избранными монетами простым способом. Это приложение предназначено для тех криптовалютных трейдеров, которые всегда хотят быть в курсе изменений цен на криптовалюты, получить гибкость настройки списка любимых монет и получить удобный способ представления исторических данных монет.
