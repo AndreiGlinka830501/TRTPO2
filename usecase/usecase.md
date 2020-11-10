@@ -1,33 +1,33 @@
 # Use Case
 ---
-![UseCase](https://github.com/b00m-b00m/CoinMarketApp-TRTPO/blob/master/Documents/usecase/Flow_of_event.PNG)
+![UseCase](https://github.com/AndreiGlinka830501/TRTPO2/blob/main/usecase/Flow_of_event.PNG)
 # 1 Actors
 
 | Actor | Description |
 |:--|:--|
-| User | person that uses application |
+| Пользователь | Человек использующий приложение |
 
 # 2 Use cases
 ## 2.1 Add coin to favorite list
-1. Starts when user press edit button from main window
-2. User make changes to local database by changing state of radio buttons of appropriate coins
-3. Application saves data every time user changed radio button
-4. User may go back to main window by pressing back button
+1. Начинается когда пользователь нажимает кнопку "изменить" на главном окне
+2. Пользователь выполняет изменения в локальной базе данных 
+3. Приложение сохраняет данные 
+4. Пользователь возвращается назад нажав кнопку "назад"
 
 ## 2.2 Update coin price info
-1. Starts when user scrolls down main window 
-2. Application makes request to server by public API
-3. Server may response successfully or inform about some failure happens, or don't response at all
-4. In case of some failure or absence of response application inform user about error by message and previous successfully updated datas will be uses
+1. Начинается когда пользователь пролистывает окно вниз 
+2. Приложение выполняет запрос на сервер
+3. Сервер может ответить на запрос или вывести ошибку о неудачи
+4. В случае вывода сообщения об ошибки или каких-либо других неполадок используется последнее изменение базы данных
 
 ## 2.3 Show favorite coins price
-1. Starts when user login in application
-2. Application make request to local database
-3. Data from database will be shown in list view
+1. Начинается когда пользователь логируется в приложении
+2. Прилодение выполняет запрос в локальную базу данных
+3. Данные из базы данных выводятся на экран
 
 ## 2.4 Show datailed coins charts
-1. Starts when user press chart button from main window
-2. Application make request to local database
-3. Data from database will be shown in specific chart view
-4. User may add coin to chart view by 
-5. User may remove coin from chart
+1. Начинается когда пользователь нажимает кнопку "графика" на главном экране
+2. Приложение выполняет запрос в локальную базу данных
+3. Данные из локальной базы данных выводятся на специальном окне
+4. Пользователь может добавить необходимую валюту для более детальной информации 
+5. Пользователь может удалить валюту 
