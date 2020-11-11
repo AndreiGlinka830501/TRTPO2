@@ -1,3 +1,3 @@
 # Deployment diagram
 ---
-![](https://github.com/b00m-b00m/CoinMarketApp-TRTPO/blob/master/Documents/deployment/r_diagram.PNG)
+![](https://github.com/AndreiGlinka830501/TRTPO2/blob/main/deployment/r_diagram.PNG)
